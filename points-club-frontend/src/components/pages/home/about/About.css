@@ -1,0 +1,24 @@
+.texto-con-fondo {
+    background-color: #c5c5a7; 
+    padding: 20px;              
+    border-radius: 8px;         
+    height: 100%;                
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+         
+  }
+  
+  .container-fluid {
+    display: flex;
+    align-items: stretch;
+  }
+ .aboutUs-text {
+    font-size: 1rem; 
+    line-height: 1.2;
+    color: #0a0909;
+  }
+
+  .custom-bg {
+    background-color:  #7B1E3A;
+  }

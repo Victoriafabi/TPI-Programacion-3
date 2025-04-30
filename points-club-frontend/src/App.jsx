@@ -1,17 +1,37 @@
 import React from 'react'
 import './App.css'
-import Header from './components/common/header/header'
-import Footer from './components/common/footer/footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-const App = () => {
+import LayoutWithoutNavbar from "./components/common/layout/layoutWithoutNavbar/LayoutWithoutNavbar"
+
+
+import Home from "../src/components/pages/home/Home"
+import NotFound from  "./components/pages/notFound/NotFound"
+
+
+function App() {
   return (
-    <div>
+    <BrowserRouter>
+      <Routes>
 
-<Header />
-<Footer />
+        <Route element={<LayoutWithoutNavbar/>}>
+          <Route path="/" element={<Home />} />
+        </Route>
 
-    </div>
-  )
+{/*        
+        <Route element={<LayoutConNav />}>
+          <Route path="/MyExchanges" element={<MyExchanges />} />
+          <Route path="/MyPoints" element={<MyPoints />} />
+          <Route path="/RewardsClientes" element={<RewardsClientes />} />
+          <Route path="/MyBranches" element={<MyBranches />} />
+        </Route> */}
+
+   
+        <Route path="*" element={<NotFound />} />
+
+      </Routes>
+      </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

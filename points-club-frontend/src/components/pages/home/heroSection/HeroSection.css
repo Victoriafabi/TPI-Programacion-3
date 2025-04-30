@@ -1,0 +1,59 @@
+.info-section {
+    background-color:  #e8e8e1;
+    color: #333;
+    padding: 4rem 0;
+  }
+  
+  .posicion-imagen {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .posicion-imagen img {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fondo-color {
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    width: 100%;
+    height: 100%;
+    background-color:#7B1E3A;
+    z-index: 0;
+    border-radius: 10px;
+  }
+  
+  .badge-nro {
+    display: inline-block;
+    background-color:#7B1E3A;
+    color: white;
+    font-weight: bold;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .btn-bordo {
+    background-color:#7B1E3A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-bordo:hover {
+    background-color: #52001a;
+    color: white;
+  }
+

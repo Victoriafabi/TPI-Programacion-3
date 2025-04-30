@@ -1,0 +1,32 @@
+.logo {
+    height: 40px;
+    margin-right: 12px;
+    background-color: #7B1E3A;
+    padding: 4px;
+    border-radius: 6px;
+  }
+  
+  .navbar h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: rgb(241, 239, 239);
+  }
+  .navbar .nav-link, h4{
+    color: white; 
+    background-color:  #7B1E3A;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    margin-right: 10px;
+    text-decoration: none;
+    
+  }
+  
+  .navbar .nav-link:hover {
+    text-decoration: underline;
+    color:  #f3d74b;
+    text-decoration: none;
+  
+  }
+  
+

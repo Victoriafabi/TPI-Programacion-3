@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import './Banner.css'; 
 
 
@@ -35,13 +35,13 @@ const Banner = () => {
   
           <div className="banner-overlay"></div>
   
-          {/* <div className="hero-content text-center text-white">
+          <div className="hero-content text-center text-white">
             <h3 className="mb-4">¡Empezá a sumar hoy!</h3>
             <div className="d-flex justify-content-center gap-3 flex-wrap">
               <Link to="/register" className="btn-bordo">Registrate</Link>
               <Link to="/login" className="btn-bordo">Iniciar sesión</Link>
             </div>
-          </div> */}
+          </div>
         </div>
       </>
     );

@@ -1,0 +1,30 @@
+.testimonial-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    color: #c46b12;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+ .profile-img {
+  width: 150px;
+  height: 150px; /* <- Igual al width */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #7B1E3A;
+}
+
+.profile-img {
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid #7B1E3A;
+  display: block;
+}
+.testimonials-section {
+ background-color: #b9b98c;
+}
+

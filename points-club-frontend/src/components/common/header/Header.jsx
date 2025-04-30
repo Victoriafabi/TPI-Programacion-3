@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '/public/logo.png'
 import './Header.css'
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
         <div className="contenido-header d-flex w-100 justify-content-between align-items-center text-white text-center text-md-start">
           
           <div className="columna-logo d-flex align-items-center">
-            <img src={logo} alt="Logo Brindis Club" className="logo-header me-3" />
+            <img  src="/logo.png" alt="Logo Brindis Club" className="logo-header me-3" />
             <div className="linea-vertical"></div>
           </div>
   

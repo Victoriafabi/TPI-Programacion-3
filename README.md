@@ -16,7 +16,7 @@
 
 🎁 **Gestión de Premios (ABM)**: Los administradores pueden agregar nuevos premios al catálogo, editar sus datos (nombre, puntos necesarios, imagen, etc.) y eliminarlos cuando ya no están disponibles.
 
-📜 **Gestión del Historial de Canjes (ABM)**: Cada vez que un usuario canjea un premio, se crea automáticamente un registro en el historial. Los administradores tienen acceso para editar o eliminar registros si es necesario.
+📜 **Gestión del Historial de Canjes (ABM)**: Cada vez que un usuario canjea un premio, se crea automáticamente un registro en el historial. 
 
 ✅ **Cargar compra**: Al registrar una compra, el sistema suma automáticamente los puntos correspondientes al usuario.
 

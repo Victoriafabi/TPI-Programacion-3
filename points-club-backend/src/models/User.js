@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
-import { sequelize } from "../db-club";
+import { sequelizeClub } from "../db-club.js";
 
-export const User = sequelize.define("User",{
+export const User = sequelizeClub.define("User", {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -13,7 +13,7 @@ export const User = sequelize.define("User",{
     },
 
     apellido: {
-        type:DataTypes.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     },
 
@@ -22,16 +22,24 @@ export const User = sequelize.define("User",{
         allowNull: false,
         unique: true,
         validate: {
-            isEmail : true
+            isEmail: true
         }
     },
-    password:{
+    password: {
         type: DataTypes.STRING,
         allowNull: false
     },
     puntos: {
         type: DataTypes.INTEGER,
         defaultValue: 0
+    },
+    rol: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: 'usuario',
+        validate: {
+            isIn: [['usuario', 'admin', 'superadmin']]
+        }
     }
 
 }, {

@@ -13,7 +13,7 @@
   height: 150px; /* <- Igual al width */
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #7B1E3A;
+  border: 3px solid #494067;;
 }
 
 .profile-img {
@@ -21,10 +21,6 @@
   height: 150px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
-  border: 3px solid #7B1E3A;
+  border: 3px solid #494067;
   display: block;
 }
-.testimonials-section {
- background-color: #b9b98c;
-}
-

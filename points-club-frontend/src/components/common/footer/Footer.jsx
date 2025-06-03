@@ -7,11 +7,11 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-      <footer className="footer-seccion text-white">
+      <footer id = "footer" className="footer-seccion text-white">
       <div className="footer-contenido container d-flex justify-content-between align-items-start flex-wrap">
   
         <div className="footer-col d-flex flex-column align-items-center text-center">
-          <img src="/logo.png" alt="Logo Victoria Fabi" className="footer-logo mb-3" />
+          <img src="/logo.png" alt="Logo de Brindis Club: dos copas brindando" className="footer-logo mb-3" />
         </div>
   
         <div className="linea-vertical mx-3"></div>

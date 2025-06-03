@@ -28,17 +28,17 @@
   text-align: center;
 }
 
-.btn-bordo {
-  background-color: #7B1E3A;
+.btn-violet {
+  background-color:  #494067;
   color: white;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
   border-radius: 8px;
   transition: all 0.3s ease;
+  text-decoration: none;;
 }
-
-.btn-bordo:hover {
-  background-color: #52001a;
+.btn-violet:hover {
+  background-color:  #d3d62f;
   color: white;
 }

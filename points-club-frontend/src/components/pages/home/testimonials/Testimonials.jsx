@@ -5,14 +5,14 @@ const TestimonialsSection = () => {
   const [testimonios, setTestimonios] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/testimonials")  // Cambié /Testimonials a /api/testimonials
+    fetch("http://localhost:3000/api/testimonials")  
       .then(res => res.json())
       .then(data => setTestimonios(data))
       .catch(err => console.error("Error al cargar testimonios:", err));
   }, []);
   
   return (
-    <div className="container my-5 testimonials-section">
+    <div id="testimonios" className="container my-5 testimonials-section">
       <div className="row justify-content-center">
         {testimonios.map((t, i) => (
           <div className="col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-4" key={i}>

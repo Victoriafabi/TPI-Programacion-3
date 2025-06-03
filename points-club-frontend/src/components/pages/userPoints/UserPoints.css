@@ -1,0 +1,47 @@
+
+.user-points-container {
+    /*background-image: url("https://tse4.mm.bing.net/th?id=OIP.8-VNLzPhQ5Oo67purMT0PwHaHa&pid=Api&P=0&h=180");*/
+   
+  background-color: #ede7f0;
+  padding: 40px;
+  border-radius: 8px; /* Bordes redondeados sutiles */
+  margin: 20px auto; /* Centra horizontalmente y añade margen arriba/abajo */
+  max-width: 900px; /* Limita el ancho máximo si lo deseas */
+}
+.points-section {
+
+  background-color:white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.history-section {
+
+  background-color:white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a271d; /* Un color de texto similar */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Opcional: estilos para las tarjetas individuales del historial si quieres */
+.reward-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.reward-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}

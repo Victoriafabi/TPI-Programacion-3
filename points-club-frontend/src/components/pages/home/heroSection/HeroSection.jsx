@@ -3,7 +3,7 @@ import './HeroSection.css'
 
 const HeroSection = () => {
     return (
-      <section className="info-section py-5 text-center">
+      <section id="banner" className="info-section py-5 text-center">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-6 text-md-start mb-4 mb-md-0">
@@ -20,7 +20,7 @@ const HeroSection = () => {
                   <div className="fondo-color"></div>
                   <img
                     src="https://images.unsplash.com/photo-1544776527-68e63addedf7"
-                    alt="Beneficios del programa"
+                    alt="Botella de vino tinto, copa von vino,nueces y hojas de otoño sobre madera"
                     className="img-fluid position-relative shadow rounded"
                   />
                 </div>

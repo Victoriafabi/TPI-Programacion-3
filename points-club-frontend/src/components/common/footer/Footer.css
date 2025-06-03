@@ -5,12 +5,12 @@ html, body {
   }
   
   .main-content {
-    min-height: 100%; 
-    padding-bottom: 60px; 
+  padding-bottom: 0px; 
+  flex: 1; 
   }
   
   .footer-seccion {
-    background-color: #7B1E3A;
+    background-color: #494067;
     padding-top: 40px;
     padding-bottom: 20px; 
     color: white;
@@ -54,7 +54,7 @@ html, body {
   }
   
   .footer-derechos {
-    background-color: #7B1E3A;
+    background-color:  #494067;
     font-size: 0.9rem;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center; 

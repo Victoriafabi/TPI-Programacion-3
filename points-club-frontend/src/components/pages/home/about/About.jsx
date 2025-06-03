@@ -10,13 +10,13 @@ const About = () => {
     }, []);
   
     return (
-      <section className="container-fluid custom-bg py-5">
+        <section id="about" className="container-fluid custom-bg py-5">
         <div className="row align-items-stretch">
 
           <div className="col-12 col-md-6" data-aos="fade-right">
             <img
               src="vino.jpg"
-              alt="Vinoteca"
+              alt="Dos hombres que sostienen copas de vino tinto y brindan frente a dos grandes toneles de madera en una bodega"
               className="img-fluid w-100 h-100 object-fit-cover"
             />
           </div>

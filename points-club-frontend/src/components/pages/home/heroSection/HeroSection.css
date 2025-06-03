@@ -24,14 +24,13 @@
     right: -50px;
     width: 100%;
     height: 100%;
-    background-color:#7B1E3A;
-    z-index: 0;
+    background-color: #494067;
     border-radius: 10px;
   }
   
   .badge-nro {
     display: inline-block;
-    background-color:#7B1E3A;
+    background-color: #494067;
     color: white;
     font-weight: bold;
     width: 28px;
@@ -43,7 +42,7 @@
   }
   
   .btn-bordo {
-    background-color:#7B1E3A;
+    background-color: #494067;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -53,7 +52,7 @@
   }
   
   .btn-bordo:hover {
-    background-color: #52001a;
+    background-color:  #494067;
     color: white;
   }
 

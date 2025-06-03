@@ -1,7 +1,7 @@
+import { sequelizeClub } from "../db-club.js";
 import { DataTypes } from "sequelize";
-import { sequelize } from "../db-club.js";
 
-export const Product = sequelize.define("Product", {
+export const Product = sequelizeClub.define("Product", {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -30,3 +30,4 @@ export const Product = sequelize.define("Product", {
 }, {
     timestamps: false
 });
+

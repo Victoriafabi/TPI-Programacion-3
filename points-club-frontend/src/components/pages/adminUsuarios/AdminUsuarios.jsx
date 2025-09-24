@@ -126,6 +126,7 @@ const AdminUsuarios = () => {
         onEdit={handleEdit}
         onDelete={handleDelete}
       />
+      <ToastContainer position="top-center" autoClose={1500} />
     </div>
   );
 };

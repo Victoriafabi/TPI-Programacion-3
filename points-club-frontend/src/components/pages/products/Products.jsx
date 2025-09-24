@@ -87,7 +87,7 @@ const Products = () => {
             }
 
             const data = await response.json();
-            toast.success(data.message);
+            toast.success("Canje exitoso!");
 
         } catch (err) {
             console.error("Error al canjear producto:", err);

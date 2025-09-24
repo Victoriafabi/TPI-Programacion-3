@@ -27,7 +27,7 @@ import AdminProducts from './components/pages/adminProduct/AdminPoducts';
 import AddUser from './components/pages/adminUsuarios/addUser/AddUser';
 import ModifyUser from './components/pages/adminUsuarios/modifyUser/ModifyUser';
 import DeleteUser from './components/pages/adminUsuarios/deleteUser/DeleteUser';
-import AdminUsuarios from './components/pages/adminUsuarios/adminUsuarios';
+import AdminUsuarios from  './components/pages/adminUsuarios/AdminUsuarios';
 
 
 function App() {

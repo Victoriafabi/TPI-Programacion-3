@@ -19,7 +19,7 @@ const UsuariosTable = ({ users, onEdit, onDelete }) => {
             <td>{user.email}</td>
             <td>{user.rol}</td>
             <td>
-              <button onClick={() => onEdit(user.id)}>Editar</button>
+              <button onClick={() => onEdit(user.id)}>Editar </button>
               <button onClick={() => onDelete(user.id)}>Eliminar</button>
             </td>
           </tr>
